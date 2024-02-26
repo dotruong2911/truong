@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  list-style-type: none;
+  top: 65px;
+}
+
+.btn {
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #eee;
+  margin: 0 5px;
+  font-size: 0.9rem;
+  font-weight: 500;
+
+  &:hover {
+    background-color: #ddd;
+    cursor: pointer;
+  }
+}

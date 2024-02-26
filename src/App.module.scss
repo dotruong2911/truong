@@ -1,0 +1,45 @@
+* {
+  text-decoration-line: none;
+}
+
+.app {
+  position: relative;
+  min-height: 100vh;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+}
+
+.home {
+  display: flex;
+}
+.menus {
+  position: fixed;
+  left: 250px;
+  z-index: 100;
+  background-color: white;
+  width: 100%;
+}
+
+.content {
+  // display: flex;
+  // position: relative;
+}
+
+.videos {
+  position: absolute;
+  top: 110px;
+  left: 250px;
+  width: calc(100vw - 300px);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.aside {
+  position: fixed;
+}

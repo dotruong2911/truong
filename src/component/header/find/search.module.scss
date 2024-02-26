@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+}
+
+.search {
+  display: flex;
+  padding-left: 15px;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  align-items: center;
+  gap: 10px;
+}
+
+.find {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 50px;
+  border: 1px solid #ddd;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.input {
+  &:focus {
+    outline: none;
+  }
+}
